@@ -2,6 +2,15 @@
 
 A curated collection of microprojects and tools for enhancing the Linux desktop experience. This repository contains practical, well-documented solutions for common Linux desktop tasks and customization.
 
+## Tags
+
+- living-on-linux
+- docs
+- living
+- linux
+- video
+- playback
+
 ## 🎯 Project Philosophy
 
 - **Microproject Focus**: Small, focused projects that solve specific problems
