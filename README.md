@@ -119,6 +119,12 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## 📋 Project Ideas
 
+## Documentation
+
+- [Docs README](./docs/README.md)
+- [Feature Index](./docs/features/README.md)
+- [Roadmap Index](./docs/roadmaps/README.md)
+
 - **System monitoring dashboard**
 - **Desktop automation tools**
 - **File organization utilities**
