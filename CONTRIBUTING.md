@@ -135,6 +135,12 @@ Each project must include a comprehensive README with:
 
 ## Testing
 
+Run the repo-native verification command:
+
+```bash
+./scripts/test.sh
+```
+
 ### Test Structure
 
 ```
@@ -163,6 +169,23 @@ projects/project-name/
 - Maintain good test coverage
 - Tests should be independent and repeatable
 - Use descriptive test names
+
+## Repo Health Notes
+
+- The current repo-native validation command is `./scripts/test.sh`.
+- Generated local diagnostics are written to `.devstudio/runtime/` and are intentionally ignored from source control.
+- CI is not currently wired yet; add a workflow here when it is introduced so validation commands can be documented and replaced as appropriate.
+
+## Repo Lifecycle Notes
+
+- This repository is currently **active and retained** in the operating-systems wrapper.
+- No consolidation, archival, or migration is planned yet.
+- If a future phase requires changing this posture, raise a follow-up issue with:
+  - decision owner
+  - target destination or target archive location
+  - migration or deprecation checklist
+  - exact date for completion
+
 
 ## Submitting Changes
 

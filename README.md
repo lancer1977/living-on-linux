@@ -147,9 +147,32 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ## 📚 Documentation
 
 - [Live Wallpaper Setup](projects/live-wallpaper/README.md)
-- [Setup Scripts Guide](docs/setup-scripts.md)
-- [GUI Development](docs/gui-development.md)
-- [Best Practices](docs/best-practices.md)
+- [Feature Index](docs/features/README.md)
+- [Sub-module projects](docs/features/sub-module-projects.md)
+- [Roadmap](docs/roadmaps/portfolio-roadmap.md)
+
+## ✅ Validation
+
+Run:
+
+```bash
+./scripts/test.sh
+```
+
+## Operational Notes
+
+- Generated artifacts and local diagnostics are expected under `.devstudio/runtime/` and are ignored by default.
+- CI is not yet configured; repo validation uses `./scripts/test.sh` as the local smoke path.
+- Add new project directories with a README so `./scripts/test.sh` can enforce project hygiene.
+
+## Lifecycle Position
+
+`living-on-linux` is an active, low-maintenance repo that remains in this operating-systems wrapper while active.
+
+- Scope: Linux desktop microprojects and supporting docs.
+- Validation expectation: run `./scripts/test.sh` after changes.
+- Promotion/disposition: keep active for now unless a future issue explicitly requests consolidation, migration, or archival.
+- If that decision changes, migration steps should include a short checklist and an explicit follow-up issue before any move.
 
 ## 🐛 Bug Reports
 

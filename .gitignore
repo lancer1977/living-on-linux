@@ -125,6 +125,7 @@ Desktop.ini
 *.tmp
 *.bak
 *.cache
+/.devstudio/runtime/
 node_modules/
 dist/
 build/
